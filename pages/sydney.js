@@ -43,7 +43,7 @@ const NotSoScrollingBanner = () => {
     <div style={{ overflow: 'hidden', whiteSpace: 'nowrap', width: '100%', maxWidth: '80vw' }}>
       <motion.div
         style={{ display: 'inline-block' }}
-        animate={{ x: ["100%", "-100%"] }}
+        animate={{ x: ["125%", "-50%"] }}
         transition={{ duration: 15, repeat: Infinity, ease: 'linear' }}
       >
         {/* Duplicate the logos to create a seamless loop */}
